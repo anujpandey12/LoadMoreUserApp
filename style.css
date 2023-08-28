@@ -1,0 +1,27 @@
+body {
+    background-color: #f7f7f7;
+}
+.media {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+.media .media-left {
+    padding-right: 15px;
+}
+.media .media-left img {
+    width: 100px;
+    height: 100px;
+}
+.media .media-body h3 {
+    font-size: 20px;
+    margin: 0px 0px 10px;
+}
+.media .media-body p {
+    font-size: 14px;
+    margin: 0px;
+}
